@@ -9,7 +9,7 @@
 int main() {
 
 	//window stuff
-	sf::RenderWindow window(sf::VideoMode(640, 480), "My First Game", sf::Style::Titlebar | sf::Style::Close);
+	sf::RenderWindow window(sf::VideoMode(800, 600), "My First Game", sf::Style::Titlebar | sf::Style::Close);
 	sf::Event ev;
 
 	// game loop
@@ -36,7 +36,7 @@ int main() {
 		
 		//render
 
-		window.clear(sf::Color::Cyan); //clear old frames
+		window.clear(sf::Color::Blue); //clear old frames
 
 		//draw your game here
 
